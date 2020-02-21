@@ -13,7 +13,7 @@ import sys
 
 # Définitions constantes et variables globales
 repertoire.filerep()
-file = open('readme.md', 'w')
+file = open('readme.txt', 'w')
 sys.stdout = file
 help(repertoire)
 file.close()
