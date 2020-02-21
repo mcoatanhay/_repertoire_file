@@ -1,6 +1,6 @@
 ﻿#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# Fichier: help_repertoire_compose.py
+# Fichier: readme_repertoire_compose.py
 # Auteur: Marc COATANHAY
 
 """
@@ -13,7 +13,7 @@ import sys
 
 # Définitions constantes et variables globales
 repertoire.filerep()
-file = open('help.txt', 'w')
+file = open('readme.md', 'w')
 sys.stdout = file
 help(repertoire)
 file.close()
