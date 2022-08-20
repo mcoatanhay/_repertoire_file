@@ -4,9 +4,7 @@ NAME
     repertoire - Change le répertoire de travail vers le répertoire du fichier.
 
 FUNCTIONS
-    chdir(...)
-        chdir(path)
-        
+    chdir(path)
         Change the current working directory to the specified path.
         
         path may always be specified as a string.
@@ -16,12 +14,10 @@ FUNCTIONS
     filerep()
         # Définitions constantes et variables globales
     
-    getcwd(...)
-        getcwd() -> path
-        
+    getcwd()
         Return a unicode string representing the current working directory.
 
 FILE
-    c:\users\mc\mu_code\_mes_modules\_repertoire_file\repertoire.py
+    c:\users\mc\documents\python\mes_modules\_repertoire_file\repertoire.py
 
 
